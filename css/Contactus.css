@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Irish+Grover&family=Jomolhari&family=Joti+One&family=Jua&family=Kadwa:wght@400;700&family=Kotta+One&family=Lancelot&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    overflow: hidden;
+}
+
+.contaner{
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    align-items: center;
+    background: url(../yug/bg7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.m-box{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.info{
+    width: 49%;
+    color: rgba(255, 255, 255, 0.774);
+}
+
+.hed{
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+
+.location{
+    margin: 100px 0px 50px 20px;
+}
+
+.open{
+    margin: 20px;
+}
+
+.email{
+    margin: 50px 20px;
+}
+
+.number{
+    margin: 10px 20px;
+}
+
+p{
+    font-size: 20px;
+    width: 55%;
+    margin: 10px;
+}
+
+h1{
+    font-size: 65px;
+}
+
+.inputs{
+    width: 49%;
+    position: relative;
+    top: 40px;
+    right: 50px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.line-one input{
+    width: 48%;
+    padding: 15px 10px;
+    border-radius: 10px;
+    background-color: black;
+    border: 1px solid #c6d33b;
+    outline: none;
+    color: white;
+    margin: 40px 5px;
+    font-size: 13px;
+}
+
+.sub input{
+    width: 98%;
+    padding: 15px 10px;
+    border-radius: 10px;
+    background-color: black;
+    border: 1px solid #c6d33b;
+    outline: none;
+    color: white;
+    margin: 40px 5px;
+    font-size: 13px;
+}
+
+.message textarea{
+    width: 98%;
+    height: 100px;
+    padding: 15px 10px;
+    border-radius: 10px;
+    background-color: black;
+    border: 1px solid #c6d33b;
+    outline: none;
+    color: white;
+    margin: 40px 5px;
+    font-size: 13px;
+}
+
+.btn{
+    position: relative;
+    left: 50%;
+    transform: translate(-10%);
+}
+
+.btn input{
+    width: 20%;
+    padding: 15px 10px;
+    border-radius: 10px;
+    background-color: #c6d33b;
+    border: none;
+    outline: none;
+    color: black;
+    margin: 40px 5px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+::placeholder{
+    color: white;
+    font-family: "Inder", sans-serif;
+}

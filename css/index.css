@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Joti+One&family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Joti+One&family=Jua&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Irish+Grover&family=Joti+One&family=Jua&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    overflow-x: hidden;
+}
+.m-cont{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll; 
+    height: 100vh;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    scroll-snap-align: start;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    background-color: rgba(37, 6, 6, 0.342);
+    backdrop-filter: blur(2px);
+    border-bottom: 1px solid wheat;
+    
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar li{
+    margin: 0px 13px;
+    list-style: none;
+}
+
+.navbar li a:hover{
+    color: #C6D33B;
+    font-size: 16px;
+}
+.navbar li a{
+    text-decoration: none;
+    padding: 5px 5px;
+    color: rgba(255, 255, 255, 0.747);
+    font-size: 15px;
+    padding: 7px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Joti+One&family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Joti+One&family=Jua&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Irish+Grover&family=Joti+One&family=Jua&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.contaner2{
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    align-items: center;
+    background: url("../yug/menu.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.menu1{
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 80px;
+    padding-left: 50px;
+    font-size: 25px;
+}
+
+.menu2{
+    color: white;
+    padding-left: 50px;
+    font-family: "Inknut Antiqua", serif;
+    font-size: 35px;
+}
+.menu{
+    width: 90%;
+    position: relative;
+    margin: 50px;
+    left: 46%;
+    transform: translate(-50%);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.072);
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(168, 168, 168, 0.294);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.line1,.line2,.line3{
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.24);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.dish{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 30px;
+}
+
+.name{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    color: wheat;
+    margin: 0px 0px 0px 30px;
+    width: 65%;
+}
+
+.contaner2 .menu h3{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 25px;
+    text-decoration: underline;
+    margin-left: 30px;
+}

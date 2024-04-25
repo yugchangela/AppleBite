@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Joti+One&family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Joti+One&family=Jua&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Irish+Grover&family=Joti+One&family=Jua&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.contaner4{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+
+.imges{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    position: relative;
+    top: 50px;
+}
+
+.imges img{
+    float: left;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.contaner4 img:hover{
+    transform: scale(1.05,1.05);
+    transition: .5s;
+}
+
+.contaner4 .dtl{
+    position: relative;
+    top: 70px;
+    margin-left: 30px;
+}
+
+.photos1{
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 19px;
+}
+
+.photos2{
+    color: white;
+    font-family: "Inknut Antiqua", serif;
+    font-size: 25px;
+}
